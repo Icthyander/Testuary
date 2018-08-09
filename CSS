@@ -1,0 +1,391 @@
+/*The color in the Tapatalk console is assumed to have been set to #4d6a65*/
+
+/*MAIN*/
+
+a {
+    /*Default link color*/
+    color: #60817C;
+}
+
+body {
+    /*Forum background*/
+    background:#9aa77b;
+    /*Non-title text*/
+    color:#333;
+    font-family:"Helvetica", "Arial", "Bitstream Vera Sans", "Verdana", sans-serif;
+    font-size:85%;
+}
+
+.forabg, .forumbg, .viewtopic_wrapper {
+    /*Exterior of various boxes*/
+    background-color: #bcc99e;
+}
+
+li.row {
+    /*Interior box colors*/
+    background-color: #abb988;
+    border-bottom-color: #8d9874;
+}
+
+.row-item {
+    /*Top of lists*/
+    background-color: #82a181;
+}
+
+.row-item.forum_read, .row-item.forum_read_locked, .row-item.forum_read_subforum, .row-item.forum_unread, .row-item.forum_unread_locked, .row-item.forum_unread_subforum {
+    /*Body of lists*/
+    background-color: #abb988;
+}
+
+body.content_block_header_block li.header dd, body.content_block_header_block li.header dt {
+    /*Text at the top of lists*/
+    color: #333;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.topiclist .header .flex-title .start, ul.topiclist .header .row-item .list-inner, ul.topiclist li.header dt .list-inner a {
+    /*Table title text*/
+    color: #ffffff;
+    font-weight: bold;
+    /*text-align: right;*/
+}
+
+#footer, .navbar, .default-submit-action {
+    /*Footer*/
+    background-color: #4d6a65 !important;
+}
+
+.icon.icon-lightgray, a:hover .icon.icon-lightgray {
+    /*Profile link icon color*/
+    color: #333 !important;
+}
+
+.body-layout-Fluid #inner-wrap, .inner-wrap {
+    /*The main body of the website*/
+    width: 100%;
+    margin: 0 0;
+}
+
+/*HEADER*/
+
+.particles_container {
+    /*Main banner*/
+    background-color: #82a181;
+}
+
+.inner-box-content {
+    /*Top forums/discussions/messages bar*/
+    background-color: #6d876d;
+}
+
+.bhn-wp #bhn-b .bhn .inner-box .nav-item, .bhn-wp #bhn-b.fixed .bhn .inner-box .nav-item:not(.active) {
+    /*Unselected menu items*/
+    color: #ffffff;
+}
+
+.inner-box {
+    /*Sub-main menu*/
+    background-color: #bcc99e;
+}
+
+.bhn-wp #bhn-b .bhn.sub .inner-box {
+    /*Sub-menu text*/
+    color: #333;
+}
+
+.st0 {
+    /*Unselected submenu icon*/
+    fill: #fff !important;
+}
+
+/*AVATARS*/
+
+.lastpostavatar i.avatar-bg, .postprofile i.avatar-bg, i.avatar-bg, ul.topics .posteravatar i.avatar-bg {
+    /*Square avatars*/
+    border-radius: 0;
+}
+
+/*FORUMS PAGE*/
+
+ul.forums div.list-inner a {
+    /*Title of forum in category lists*/
+    color: #60817C;
+}
+
+ul.forums div.list-inner .forum_description a {
+    /*Description of forum in category lists*/
+    color: #333;
+    font-size: 85%;
+}
+
+a.lastsubject {
+    /*Thread title in last posted section*/
+    text-decoration: none;
+    color: #60817C;
+}
+
+ul.topiclist li {
+    /*Text in descriptive boxes for forums*/
+    color: #333
+}
+
+/*.topics, .posts, .views {
+    /*Columns for descriptive information/
+    background: #9aa77b;
+    border: 1px solid #8d9874;
+}*/
+
+.forabg li.header dl dd.topics, ul.topiclist.forums dd.topics {
+    /*Topics column*/
+    background: #9aa77b;
+    border: 1px solid #8d9874;
+}
+
+.forabg li.header dl dd.posts, ul.topiclist.forums dd.posts {
+    /*Posts column*/
+    background: #9aa77b;
+    border: 1px solid #8d9874;
+}
+
+ul.topiclist dd {
+    /*Left borders in columns*/
+    border-left-color: #8d9874;
+}
+
+li.row:hover dd {
+    /*Preventing white lines from appearing when hovering on items*/
+    border-left-color: transparent;
+}
+
+
+body.content_block_header_block .forabg .collapse-trigger a, body.content_block_header_block .forabg .collapse-trigger a:focus, body.content_block_header_block .forabg .collapse-trigger a:hover, body.content_block_header_block .forumbg .collapse-trigger a, body.content_block_header_block .forumbg .collapse-trigger a:focus, body.content_block_header_block .forumbg .collapse-trigger a:hover {
+    /*Color of collapse buttons*/
+    color: #333;
+}
+
+.index-action-bar .right-box .mark-all-forums-read a.mark-read span {
+    /*Mark forums read button*/
+    line-height: 36px;
+    color: #333;
+    background: #6d876d;
+    padding:10%;
+    border: 1px solid #4d6a65;
+}
+
+/*TOPICS*/
+
+a.topictitle {
+    /*Thread title*/
+    color: #60817C;
+    font-weight: normal;
+}
+
+.topic-poster {
+    /*Thread poster*/
+    font-size: 90%;
+}
+
+.topic_type, .pagination li a:hover, .pagination li.active span, .pagination li a:focus, .jumpbox-cat-link, .dropdown-contents > li > a:hover, a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover, a.no_avatar:hover, .jumpbox-cat-link:hover, input.button1:focus, input.button2:focus, input.button3:focus, .specialbutton, input.specialbutton, .panel .specialbutton, a.specialbutton, .unread-mark, input.quick-relay.button1 {
+    /*New topic button*/
+    background: #4d6a65;
+    border-color: #4d6a65;
+}
+
+.search-box .inputbox {
+    /*Text typed in searchbox*/
+    font-size: 13px;
+    color: #333;
+}
+
+/*CHATROOM*/
+#chat-collapse-bar, #chat-top-bar {
+    /*Chatroom bar*/
+    background-color: #6d876d  !important;
+}
+
+.chat-nav-bar.chat-window-bar-round-corner {
+    /*Chatroom bar*/
+    border-bottom: 1px solid #abb988;
+}
+
+
+#chat-content-container {
+    /*Chatroom body*/
+    background-color: #bcc99e;
+    border-left: 1px solid #abb988;
+    border-right: 1px solid #abb988;
+}
+
+.chat-time {
+    /*Chat time text*/
+    color: #777
+}
+
+.chat-setting, #chat-collapse-bar-maximize-icon, .chat-collapse-bar-expand-icon, .chat-room-icon, .chat-minify-icon, .chat-close {
+    /*Icon coloring*/
+    filter: brightness(0);
+}
+
+/*THREADS*/
+.post {
+    /*Post body*/
+    padding: 3px 3px 2px;
+    margin-bottom: 0px;
+}
+
+.postprofile_container {
+    /*Top and bottom*/
+    background: #82a181;
+    border: 1px solid #6d876d;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.postbody {
+     /*Body of the post*/
+    background: #abb988;
+    padding: 5px;
+    border: 1px solid #8d9874;
+    font-size: 90%;
+    line-height: 1.7;
+    vertical-align: top;
+}
+
+.bg2, .bg1 {
+    /*Post container*/
+    background: #abb988;
+    border: 1px solid #8d9874;
+}
+
+.postprofile i.avatar-bg, i.avatar-bg {
+    /*Avatar picture*/
+    height: 180px;
+    width: 180px;
+}
+
+.postprofile .avatar {
+    /*Avatar container*/
+    max-width: 180px;
+    max-height: 180px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.postprofile_Left .postprofile {
+    /*Avatar section*/
+    border-width: 0 0 0 0;
+}
+
+h2.topic-title a {
+    /*Thread title*/
+    color: #fff;
+    font-weight: bold;
+}
+
+.postcontent_footer {
+    /*Post footer*/
+    border-top: 1px dashed #8d9874;
+}
+
+/*MESSAGES*/
+
+.panel.bg3 {
+    /*Outer container*/
+    background-color: #82a181;
+}
+
+/*POLLS*/
+
+.panel {
+    /*Poll box*/
+    background-color: #bcc99e;
+    color: #333;
+}
+
+.poll_option_container {
+    /*Poll options*/
+    background: #abb988;
+    color: #333;
+    border: 1px solid #8d9874;
+}
+
+.content .poll_text {
+    /*Text below poll*/
+    color: #333;
+}
+
+/*BBCODE ITEMS*/
+
+.codebox {
+    /*Spoiler exterior*/
+    font-weight: normal;
+    background-color: #bcc99e;
+    border: 1px solid #8d9874;
+    padding: 2px 4px;
+}
+
+.pagination li a:hover, .pagination li.active span, .pagination li a:focus, blockquote, .codebox code, .jumpbox-cat-link, a.postlink, input.button1:focus, input.button2:focus, input.button3:focus, input.specialbutton, .inputbox:hover, .inputbox:focus, .specialbutton, a.specialbutton, .button:focus {
+    /*Quote box*/
+    border-color: #6d876d;
+}
+
+/*Unknown Relictual Code*/
+.forum-description {
+    color: #333 !important;
+}
+
+.chat-collapse-bar .chat-nav-bar .chat-shadow {
+    /*Chatroom bar*/
+    background-color: #6d876d  !important;
+}
+
+display: block;
+
+[id^="p_"] .postprofile i.avatar-bg {
+    border: 1px solid #8d9874;
+}
+
+p.author, p.author a {
+    color: #333;
+}
+
+/*Broken Code
+.bhn-wp #bhn-b.fixed .bhn .inner-box .nav-item:not(.active) {
+   Sub-menu text when minimized
+    color: #333;
+}
+
+dt {
+   Spoiler header
+    background: #6d876d;
+    border: 1px solid #000;
+    color: #000;
+    font-weight: 700;
+    padding: 2px 4px;
+}
+
+.codebox {
+    Spoiler exterior
+    background: #6d876d;
+    border: 1px solid #000;
+    color: #000;
+    font-weight: 700;
+    padding: 2px 4px;
+}
+
+dd {
+    /*Spoiler interior*/
+    font-weight: normal;
+    background-color: #abb988;
+    border: 1px solid #000;
+    padding: 2px 4px;
+}
+*/
+
+/*Because this helps*/
+
+a {
+    /*Default link color*/
+    color: #60817C;
+}
